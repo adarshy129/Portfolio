@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FONT AWESOME ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Responsive portfolio website - Crypticalcoder</title>
+</head>
+
+<body>
+  <!--==================== STYLE SWITCHER ====================-->
+  <div class="style__switcher"></div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__left">
+        <a href="index.html" class="nav__logo">Adarsh</a>
+        <a href="assets/pdf/My Resume.pdf" class="nav__link nav__resume-link" download>Download Resume</a>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <ul class="nav__list" id="nav-menu">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#skills" class="nav__link">Skills</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#projects" class="nav__link">Projects</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+
+        <div class="home__content">
+          <span class="home__small">Hello</span>
+          <h1 class="home__title">
+            <span>I'm</span> Adarsh <br />
+            a <span>Full Stack Developer</span>
+          </h1>
+
+          <p class="home__description">
+            Passionate Full Stack Developer skilled in building modern web applications with React, Node.js, and
+            PostgreSQL. I love solving real-world problems, creating seamless user experiences, and bringing ideas to
+            life through code.
+          </p>
+
+          <div class="home__btns">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#projects" class="btn btn--transparent">Projects</a>
+          </div>
+        </div>
+
+        <div class="home__img-wrapper">
+          <img src="assets/img/m_profile.jpg" alt="Adarsh Yadav" class="home__img">
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <div class="about__container container" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about__content" style="margin: 0 auto; max-width: 600px; text-align: center;">
+          <h2 class="section__title" data-title="Who am i?">
+            I'm Adarsh Yadav, a Full Stack Developer
+          </h2>
+
+          <p class="about__description">
+            I am a dedicated and detail-oriented Full Stack Developer based in Mumbai, India. With a strong foundation
+            in both frontend and backend technologies, I specialize in developing scalable, secure, and user-friendly
+            web solutions. My expertise spans JavaScript, React, Node.js, Express, and relational databases like
+            PostgreSQL and MySQL. I thrive in collaborative environments and am always eager to learn new technologies
+            and take on challenging projects.
+          </p>
+
+          <ul class="about__data grid">
+            <li class="data__item">
+              <h3 class="data__title">Name:</h3>
+              <span class="data__description">Adarsh Yadav</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">Age:</h3>
+              <span class="data__description">22</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">From:</h3>
+              <span class="data__description">Mumbai</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">Email:</h3>
+              <span class="data__description about__link">ay144344@gmail.com</span>
+            </li>
+          </ul>
+
+          <div class="about__bottom">
+            <a href="assets/pdf/My Resume.pdf" class="btn" download>Download CV</a>
+
+            <span class="about__divider"></span> <!-- ✅ Only one line -->
+
+            <div class="about__social-links">
+              <a href="https://github.com/adarshy129" class="about__social-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/adarsh-yadav-b28649219" class="about__social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <!-- <section class="qualification section" id="qualification">
+      <h2 class="section__title title-center" data-title="My Journey">
+        Qualification
+      </h2>
+
+      <div class="resume__container container grid">
+        <div class="resume__group">
+          <h3 class="resume__heading">Education</h3>
+
+          <div class="resume__items">
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Vidyavardhini's College of Engineering And Technology</h3>
+                <span class="resume__icon">+</span>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">EXTC</h3>
+                  <span class="resume__date">2021 - 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section> -->
+
+    <!--==================== SERVICES ====================-->
+    <section class="services" id="services"></section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title title-center" data-title="My Abilities">
+        Skills
+      </h2>
+
+      <div class="skills__container container">
+        <!-- Frontend Development -->
+        <div class="skills__category">
+          <h3 class="skills__category-title">Frontend Development</h3>
+          <div class="skills__content">
+            <div class="skills__group">
+              <div class="skills__item">
+                <img src="assets/img/icons/javascript.svg" alt="JavaScript" class="skills__img">
+                <div class="skills__info">
+                  <h4>JavaScript</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/react.svg" alt="React" class="skills__img">
+                <div class="skills__info">
+                  <h4>React</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/html5.svg" alt="HTML5" class="skills__img">
+                <div class="skills__info">
+                  <h4>HTML5</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/css3.svg" alt="CSS3" class="skills__img">
+                <div class="skills__info">
+                  <h4>CSS3</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Development -->
+        <div class="skills__category">
+          <h3 class="skills__category-title">Backend Development</h3>
+          <div class="skills__content">
+            <div class="skills__group">
+              <div class="skills__item">
+                <img src="assets/img/icons/nodejs.svg" alt="Node.js" class="skills__img">
+                <div class="skills__info">
+                  <h4>Node.js</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/express.svg" alt="Express" class="skills__img skills__img--invert">
+                <div class="skills__info">
+                  <h4>Express</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database & Tools -->
+        <div class="skills__category">
+          <h3 class="skills__category-title">Database & Tools</h3>
+          <div class="skills__content">
+            <div class="skills__group">
+              <div class="skills__item">
+                <img src="assets/img/icons/postgresql.svg" alt="PostgreSQL" class="skills__img">
+                <div class="skills__info">
+                  <h4>PostgreSQL</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/mysql.svg" alt="MySQL" class="skills__img skills__img--larger">
+                <div class="skills__info">
+                  <h4>MySQL</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development Tools -->
+        <div class="skills__category">
+          <h3 class="skills__category-title">Development Tools</h3>
+          <div class="skills__content">
+            <div class="skills__group">
+              <div class="skills__item">
+                <img src="assets/img/icons/git.svg" alt="Git" class="skills__img">
+                <div class="skills__info">
+                  <h4>Git</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/github.svg" alt="GitHub" class="skills__img skills__img--invert">
+                <div class="skills__info">
+                  <h4>GitHub</h4>
+
+                </div>
+              </div>
+              <div class="skills__item">
+                <img src="assets/img/icons/postman.svg" alt="Postman" class="skills__img">
+                <div class="skills__info">
+                  <h4>Postman</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== PROJECTS ====================-->
+    <section class="works section" id="projects">
+      <h2 class="section__title title-center" data-title="My Work">
+        Recent Projects
+      </h2>
+
+      <div class="projects__container container grid">
+        <!-- E-commerce Website -->
+        <article class="projects__item">
+          <div class="projects__img-wrapper">
+            <!-- Add your project screenshot here -->
+            <img src="assets/img/ecommerce.png" alt="E-commerce Website" class="projects__img">
+          </div>
+
+          <div class="projects__content">
+            <h3 class="projects__title">E-commerce Website</h3>
+            <div class="projects__tags">
+              <span class="projects__tag">React</span>
+              <span class="projects__tag">Node.js</span>
+              <span class="projects__tag">Express</span>
+              <span class="projects__tag">PostgreSQL</span>
+            </div>
+            <p class="projects__description">
+              Full-stack e-commerce platform with cart functionality, order management, user authentication, and
+              responsive product browsing using MERN-style architecture and JWT security.
+            </p>
+            <div class="projects__links">
+              <a href="https://ecommerce-website-proj.netlify.app/" class="project__link">
+                Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/adarshy129/ecommerce-website" class="project__link">
+                Code <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AI Chatbot Application -->
+        <article class="projects__item">
+          <div class="projects__img-wrapper">
+            <!-- Add your project screenshot here -->
+            <img src="assets/img/chatbot.png" alt="AI Chatbot Application" class="projects__img">
+          </div>
+
+          <div class="projects__content">
+            <h3 class="projects__title">AI Chatbot Application</h3>
+            <div class="projects__tags">
+              <span class="projects__tag">React</span>
+              <span class="projects__tag">Node.js</span>
+              <span class="projects__tag">OpenAI API</span>
+            </div>
+            <p class="projects__description">
+              Interactive chatbot interface with dynamic response handling and conversation history, featuring secure
+              backend integration with OpenAI's API.
+            </p>
+            <div class="projects__links">
+              <a href="https://chatbot-uuhr.onrender.com/" class="project__link">
+                Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/adarshy129/chatbot" class="project__link">
+                Code <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Task Management API -->
+        <article class="projects__item">
+          <div class="projects__img-wrapper">
+            <!-- Add your project screenshot here -->
+            <img src="assets/img/task-api.png" alt="Task Management API" class="projects__img">
+          </div>
+
+          <div class="projects__content">
+            <h3 class="projects__title">Task Manager</h3>
+            <div class="projects__tags">
+              <span class="projects__tag">Node.js</span>
+              <span class="projects__tag">Express</span>
+              <span class="projects__tag">PostgreSQL</span>
+            </div>
+            <p class="projects__description">
+              RESTful API for task management with complete CRUD operations, secured by JWT authentication and bcrypt
+              password hashing.
+            </p>
+            <div class="projects__links">
+              <a href="https://task-manager-vjtv.onrender.com" class="project__link">
+                Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/adarshy129/Task-Manager" class="project__link">
+                Code <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Courier Management System -->
+        <article class="projects__item">
+          <div class="projects__img-wrapper">
+            <!-- Add your project screenshot here -->
+            <img src="assets/img/courier.png" alt="Courier Management System" class="projects__img">
+          </div>
+
+          <div class="projects__content">
+            <h3 class="projects__title">Courier Management System</h3>
+            <div class="projects__tags">
+              <span class="projects__tag">PERN Stack</span>
+              <span class="projects__tag">PostgreSQL</span>
+              <span class="projects__tag">Express</span>
+            </div>
+            <p class="projects__description">
+              Prototype system for courier service management featuring booking, assignment, and tracking functionality
+              with a robust PostgreSQL database design.
+            </p>
+            <div class="projects__links">
+              <a href="https://courier-api-1.onrender.com/" class="project__link">
+                Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/adarshy129/Courier-API" class="project__link">
+                Code <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== TESTIMONIALS ====================-->
+    <section class="testimonials"></section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title title-center" data-title="Get in touch">
+        Contact Me
+      </h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__info">
+          <h3 class="contact__heading">Let’s build something together</h3>
+          <p class="contact__text">Have a project, job opportunity or just want to say hi? Send a message and I’ll get
+            back to you.</p>
+
+          <ul class="contact__list">
+            <li><strong>Email:</strong> <a href="mailto:ay144344@gmail.com" class="contact__link">ay144344@gmail.com</a>
+            </li>
+            <li><strong>Location:</strong> Mumbai, India</li>
+            <li><strong>Phone:</strong> <a href="tel:+919999999999" class="contact__link">+91-9702125230</a></li>
+          </ul>
+
+          <div class="contact__social">
+            <a href="https://github.com/adarshy129" class="about__social-link" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/adarsh-yadav-b28649219" class="about__social-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact__form" action="#" method="post" novalidate>
+          <div class="form__group">
+            <label for="name" class="visually-hidden">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+
+          <div class="form__group">
+            <label for="email" class="visually-hidden">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" required>
+          </div>
+
+          <div class="form__group">
+            <label for="message" class="visually-hidden">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..."
+              required></textarea>
+          </div>
+
+          <div class="form__actions">
+            <button type="submit" class="btn">Send Message</button>
+            <button type="reset" class="btn btn--transparent">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer"></footer>
+
+  <!-- Mobile menu toggle script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      // Toggle menu on hamburger click
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('show-menu');
+        const icon = navToggle.querySelector('i');
+        if (navMenu.classList.contains('show-menu')) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-xmark');
+        } else {
+          icon.classList.add('fa-bars');
+          icon.classList.remove('fa-xmark');
+        }
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+          navMenu.classList.remove('show-menu');
+          navToggle.querySelector('i').classList.add('fa-bars');
+          navToggle.querySelector('i').classList.remove('fa-xmark');
+        }
+      });
+
+      // Close menu when clicking a link
+      const navLinks = document.querySelectorAll('.nav__link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('show-menu');
+          navToggle.querySelector('i').classList.add('fa-bars');
+          navToggle.querySelector('i').classList.remove('fa-xmark');
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
